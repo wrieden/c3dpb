@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:c3dpb-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 2 8
 Title "Kajikia - Power Sheet"
 Date "2019-01-23"
 Rev "1.0"
@@ -623,8 +624,8 @@ $Comp
 L Device:Q_NMOS_SGD Q1
 U 1 1 5C3AA6BF
 P 1850 2150
-F 0 "Q1" V 2100 2150 50  0000 C CNN
-F 1 "AON6144" V 2191 2150 50  0000 C CNN
+F 0 "Q1" V 2101 2150 50  0000 C CNN
+F 1 "AON7418" V 2192 2150 50  0000 C CNN
 F 2 "_Generic:DFN5x6-8" H 2050 2250 50  0001 C CNN
 F 3 "~" H 1850 2150 50  0001 C CNN
 	1    1850 2150
@@ -805,8 +806,6 @@ DCIN-
 Wire Wire Line
 	1050 2250 950  2250
 Connection ~ 1050 2250
-Wire Wire Line
-	1050 1350 1300 1350
 $Comp
 L Device:Fuse F1
 U 1 1 5C420B0B
@@ -818,49 +817,10 @@ F 3 "~" H 1450 2250 50  0001 C CNN
 	1    1450 2250
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:CP1_Small C78
-U 1 1 5C8D0CF9
-P 1300 1550
-F 0 "C78" H 1391 1596 50  0000 L CNN
-F 1 "220u" H 1391 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1300 1550 50  0001 C CNN
-F 3 "~" H 1300 1550 50  0001 C CNN
-	1    1300 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1650 1300 1750
 Wire Wire Line
 	1050 1750 1050 2250
-$Comp
-L Device:CP1_Small C191
-U 1 1 5C910F5C
-P 1650 1550
-F 0 "C191" H 1741 1596 50  0000 L CNN
-F 1 "220u" H 1741 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1650 1550 50  0001 C CNN
-F 3 "~" H 1650 1550 50  0001 C CNN
-	1    1650 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1650 1650 1750
-Wire Wire Line
-	1300 1750 1650 1750
-Connection ~ 1300 1750
 Wire Wire Line
 	1050 1350 1050 1650
-Wire Wire Line
-	1300 1350 1300 1450
-Connection ~ 1300 1350
-Wire Wire Line
-	1300 1350 1650 1350
-Wire Wire Line
-	1650 1350 1650 1450
-Connection ~ 1650 1350
-Wire Wire Line
-	1650 1350 2200 1350
 $Comp
 L Device:CP1_Small C193
 U 1 1 5C426A5B
@@ -1124,9 +1084,6 @@ Wire Wire Line
 	10500 4350 10500 4500
 Wire Notes Line
 	550  3150 10100 3150
-Connection ~ 1050 1750
-Wire Wire Line
-	1050 1750 1300 1750
 Wire Wire Line
 	1600 2250 1650 2250
 Wire Wire Line
@@ -1851,4 +1808,6 @@ Text Notes 4450 2750 0    50   ~ 0
 200k - 0.5mhz\n100k - 1mhz\n40k - 2.5mhz
 Text Notes 4450 5350 0    50   ~ 0
 200k - 0.5mhz\n100k - 1mhz\n40k - 2.5mhz
+Wire Wire Line
+	1050 1350 2200 1350
 $EndSCHEMATC
