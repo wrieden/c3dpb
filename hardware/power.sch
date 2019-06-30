@@ -1331,18 +1331,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 1450 4500 1450
 $Comp
-L Device:C_Small C3
-U 1 1 5D63C4F3
-P 4100 1650
-F 0 "C3" H 4192 1741 50  0000 L CNN
-F 1 "4.7u" H 4192 1650 50  0000 L CNN
-F 2 "_Generic:1210_CAP" H 4100 1650 50  0001 C CNN
-F 3 "~" H 4100 1650 50  0001 C CNN
-F 4 "35v" H 4192 1559 50  0000 L CNN "Voltage"
-	1    4100 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C23
 U 1 1 5D63C19E
 P 4500 1650
@@ -1741,18 +1729,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 4050 4500 4050
 $Comp
-L Device:C_Small C5
-U 1 1 5D80664A
-P 4100 4250
-F 0 "C5" H 4192 4341 50  0000 L CNN
-F 1 "4.7u" H 4192 4250 50  0000 L CNN
-F 2 "_Generic:1210_CAP" H 4100 4250 50  0001 C CNN
-F 3 "~" H 4100 4250 50  0001 C CNN
-F 4 "35v" H 4192 4159 50  0000 L CNN "Voltage"
-	1    4100 4250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C24
 U 1 1 5D806651
 P 4500 4250
@@ -1810,4 +1786,42 @@ Text Notes 4450 5350 0    50   ~ 0
 200k - 0.5mhz\n100k - 1mhz\n40k - 2.5mhz
 Wire Wire Line
 	1050 1350 2200 1350
+Wire Wire Line
+	8300 1800 8150 1800
+Wire Wire Line
+	8150 1800 8150 2300
+Wire Wire Line
+	8150 2300 8300 2300
+Connection ~ 8300 1800
+Connection ~ 8300 2300
+$Comp
+L Device:C_Small C3
+U 1 1 5D28B4FF
+P 4100 1650
+F 0 "C3" H 4192 1696 50  0000 L CNN
+F 1 "100n" H 4192 1605 50  0000 L CNN
+F 2 "_Generic:0603_CAP" H 4100 1650 50  0001 C CNN
+F 3 "~" H 4100 1650 50  0001 C CNN
+	1    4100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5D29C329
+P 4100 4250
+F 0 "C5" H 4192 4296 50  0000 L CNN
+F 1 "100n" H 4192 4205 50  0000 L CNN
+F 2 "_Generic:0603_CAP" H 4100 4250 50  0001 C CNN
+F 3 "~" H 4100 4250 50  0001 C CNN
+	1    4100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4900 8150 4900
+Wire Wire Line
+	8150 4900 8150 4400
+Wire Wire Line
+	8150 4400 8300 4400
+Connection ~ 8300 4900
+Connection ~ 8300 4400
 $EndSCHEMATC
