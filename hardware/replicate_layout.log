@@ -1,0 +1,70 @@
+06-24 21:19:26 replicate_layout.action_replicate_layout 125:Replicate layout plugin version: 21 started
+06-24 21:19:26 replicate_layout.action_replicate_layout 157:Preparing replicator with IC4 as a reference
+06-24 21:19:26 replicate_layout.replicatelayout 193:getting project hierarchy from schematics
+06-24 21:19:26 replicate_layout.replicatelayout 195:Project hierarchy looks like:
+{'5E7AB09B': ['Power', '/home/wrieden/Desktop/git/c3dpb/hardware/power.sch'], '5C3B9892': ['Interfaces', '/home/wrieden/Desktop/git/c3dpb/hardware/interface.sch'], '606BF39C': ['Power Outputs', '/home/wrieden/Desktop/git/c3dpb/hardware/output.sch'], '5D8C6DBC': ['Driver 2', '/home/wrieden/Desktop/git/c3dpb/hardware/single_driver.sch'], '5D8E4767': ['Driver 3', '/home/wrieden/Desktop/git/c3dpb/hardware/single_driver.sch'], '5D90218A': ['Driver 4', '/home/wrieden/Desktop/git/c3dpb/hardware/single_driver.sch'], '5D8A86C3': ['Driver 1', '/home/wrieden/Desktop/git/c3dpb/hardware/single_driver.sch']}
+06-24 21:19:26 replicate_layout.replicatelayout 203:getting a list of all footprints on board
+06-24 21:19:26 replicate_layout.action_replicate_layout 183:Pivot footprint is 'IC4'
+Located on:['Driver 1']
+With filenames:['single_driver.sch']
+With sheet_id:['Driver 1']
+06-24 21:19:26 replicate_layout.action_replicate_layout 187:Corresponding footprints are 
+[('IC3', ['Driver 4']), ('IC2', ['Driver 3']), ('IC1', ['Driver 2']), ('IC4', ['Driver 1'])]
+06-24 21:19:26 replicate_layout.action_replicate_layout 200:Showing dialog
+06-24 21:19:26 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'Driver 1', file:'single_driver.sch'
+06-24 21:19:26 replicate_layout.replicatelayout 237:Sheet ids up to the level:['Driver 1']
+06-24 21:19:26 replicate_layout.replicatelayout 241:Footprints on the sheets:
+['IC3', 'IC2', 'IC1', 'IC4']
+06-24 21:19:26 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
+['/5D90218A/5D5EB72B', '/5D8E4767/5D5EB72B', '/5D8C6DBC/5D5EB72B', '/5D8A86C3/5D5EB72B']
+06-24 21:19:26 replicate_layout.replicatelayout 260:All sheets to replicate:
+[['Driver 4'], ['Driver 3'], ['Driver 2'], ['Driver 1']]
+06-24 21:19:26 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
+[['Driver 1'], ['Driver 2'], ['Driver 3'], ['Driver 4']]
+06-24 21:19:26 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
+[['Driver 2'], ['Driver 3'], ['Driver 4']]
+06-24 21:19:31 replicate_layout.replicatelayout 230:construcing a list of sheets suitable for replication on level:'Driver 1', file:'single_driver.sch'
+06-24 21:19:31 replicate_layout.replicatelayout 237:Sheet ids up to the level:['Driver 1']
+06-24 21:19:31 replicate_layout.replicatelayout 241:Footprints on the sheets:
+['IC3', 'IC2', 'IC1', 'IC4']
+06-24 21:19:31 replicate_layout.replicatelayout 244:Footprints raw sheet ids:
+['/5D90218A/5D5EB72B', '/5D8E4767/5D5EB72B', '/5D8C6DBC/5D5EB72B', '/5D8A86C3/5D5EB72B']
+06-24 21:19:31 replicate_layout.replicatelayout 260:All sheets to replicate:
+[['Driver 4'], ['Driver 3'], ['Driver 2'], ['Driver 1']]
+06-24 21:19:31 replicate_layout.replicatelayout 265:All sheets to replicate sorted:
+[['Driver 1'], ['Driver 2'], ['Driver 3'], ['Driver 4']]
+06-24 21:19:31 replicate_layout.replicatelayout 271:All sheets to replicate sorted and without pivot_sheet:
+[['Driver 2'], ['Driver 3'], ['Driver 4']]
+06-24 21:19:31 replicate_layout.action_replicate_layout 229:Replicating layout
+06-24 21:19:31 replicate_layout.replicatelayout 993:Starting replication of sheets: [['Driver 2'], ['Driver 3'], ['Driver 4']]
+on level: ['Driver 1']
+with tracks=True, zone=True, text=True, containing=False, remov=False
+06-24 21:19:31 replicate_layout.replicatelayout 526:Getting the list of pivot footprints
+06-24 21:19:31 replicate_layout.replicatelayout 529:Getting the list of all the remaining footprints
+06-24 21:19:31 replicate_layout.replicatelayout 532:Getting nets local to pivot footprints
+06-24 21:19:31 replicate_layout.replicatelayout 535:Getting pivot bounding box
+06-24 21:19:31 replicate_layout.replicatelayout 538:Getting pivot tracks
+06-24 21:19:31 replicate_layout.replicatelayout 541:Getting pivot zones
+06-24 21:19:31 replicate_layout.replicatelayout 544:Getting pivot text items
+06-24 21:19:31 replicate_layout.replicatelayout 547:Getting pivot text items
+06-24 21:19:31 replicate_layout.replicatelayout 551:Replicating footprints
+06-24 21:19:31 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['Driver 2']
+06-24 21:19:31 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['Driver 3']
+06-24 21:19:31 replicate_layout.replicatelayout 553:Replicating footprints on sheet ['Driver 4']
+06-24 21:19:31 replicate_layout.replicatelayout 661:Replicating tracks
+06-24 21:19:31 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['Driver 2']
+06-24 21:19:31 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['Driver 3']
+06-24 21:19:31 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['Driver 4']
+06-24 21:19:31 replicate_layout.replicatelayout 759:Replicating zones
+06-24 21:19:31 replicate_layout.replicatelayout 762:Replicating zones on sheet ['Driver 2']
+06-24 21:19:31 replicate_layout.replicatelayout 762:Replicating zones on sheet ['Driver 3']
+06-24 21:19:31 replicate_layout.replicatelayout 762:Replicating zones on sheet ['Driver 4']
+06-24 21:19:31 replicate_layout.replicatelayout 859:Replicating text
+06-24 21:19:31 replicate_layout.replicatelayout 862:Replicating text on sheet ['Driver 2']
+06-24 21:19:31 replicate_layout.replicatelayout 862:Replicating text on sheet ['Driver 3']
+06-24 21:19:31 replicate_layout.replicatelayout 862:Replicating text on sheet ['Driver 4']
+06-24 21:19:31 replicate_layout.replicatelayout 880:Replicating drawings
+06-24 21:19:31 replicate_layout.replicatelayout 882:Replicating drawings on sheet ['Driver 2']
+06-24 21:19:31 replicate_layout.replicatelayout 882:Replicating drawings on sheet ['Driver 3']
+06-24 21:19:31 replicate_layout.replicatelayout 882:Replicating drawings on sheet ['Driver 4']
+06-24 21:19:31 replicate_layout.action_replicate_layout 239:Replication complete

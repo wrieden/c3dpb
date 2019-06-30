@@ -1,0 +1,8 @@
+06-23 08:35:16 place_footprints.action_place_footprints 337:Place footprints plugin version: 18 started
+06-23 08:35:17 place_footprints.place_footprints 183:getting project hierarchy from schematics
+06-23 08:35:17 place_footprints.place_footprints 192:getting a list of all footprints on board
+06-23 08:35:17 place_footprints.place_footprints 218:construcing a list of sheets suitable for replication on level:'Driver 1', file:'single_driver.sch'
+06-23 08:35:17 place_footprints.place_footprints 251:suitable sheets are:[['Driver 2'], ['Driver 3'], ['Driver 4']]
+06-23 08:35:27 place_footprints.action_place_footprints 516:Modules to place: ['IC4', 'IC3', 'IC2', 'IC1']
+06-23 08:35:27 place_footprints.place_footprints 351:Starting placing with linear layout
+06-23 08:35:27 place_footprints.action_place_footprints 552:Placing complete
