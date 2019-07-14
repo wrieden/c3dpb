@@ -565,7 +565,7 @@ F 1 "SolderJumper_4_Open" H 5100 1250 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 5100 1250 50  0001 C CNN
 F 3 "~" H 5100 1250 50  0001 C CNN
 	1    5100 1250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR062
@@ -712,7 +712,7 @@ F 1 "SolderJumper_4_Open" H 7600 1250 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 7600 1250 50  0001 C CNN
 F 3 "~" H 7600 1250 50  0001 C CNN
 	1    7600 1250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+24V #PWR0212

@@ -248,27 +248,6 @@ $EndComp
 Wire Wire Line
 	1900 3900 1950 3900
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5D6D6D27
-P 2050 3900
-AR Path="/5B406A7B/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5D6D6D27" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5D6D6D27" Ref="JP22"  Part="1" 
-F 0 "JP22" V 1897 3900 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 2050 3900 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 2050 3900 50  0001 C CNN
-F 3 "~" H 2050 3900 50  0001 C CNN
-	1    2050 3900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5D6D6D2E
 P 3450 4200
@@ -358,9 +337,7 @@ $EndComp
 Wire Wire Line
 	2500 3950 2500 4000
 Wire Wire Line
-	2150 3950 2250 3950
-Wire Wire Line
-	2150 3850 2750 3850
+	2200 3950 2250 3950
 Wire Wire Line
 	2750 3850 2750 4300
 Connection ~ 2750 4300
@@ -397,7 +374,7 @@ F 1 "SolderJumper_4_Open" H 3200 3850 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 3200 3850 50  0001 C CNN
 F 3 "~" H 3200 3850 50  0001 C CNN
 	1    3200 3850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3250 4100 3200 4100
@@ -536,27 +513,6 @@ $EndComp
 Wire Wire Line
 	4900 3900 4950 3900
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CA64246
-P 5050 3900
-AR Path="/5B406A7B/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CA64246" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CA64246" Ref="JP28"  Part="1" 
-F 0 "JP28" V 4897 3900 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 5050 3900 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 5050 3900 50  0001 C CNN
-F 3 "~" H 5050 3900 50  0001 C CNN
-	1    5050 3900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CA6424D
 P 6450 4200
@@ -645,10 +601,6 @@ F 3 "" H 5900 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 3950 5500 4000
-Wire Wire Line
-	5150 3950 5250 3950
-Wire Wire Line
-	5150 3850 5750 3850
 Wire Wire Line
 	5750 3850 5750 4300
 Connection ~ 5750 4300
@@ -802,27 +754,6 @@ $EndComp
 Wire Wire Line
 	4900 5400 4950 5400
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CA7A4E8
-P 5050 5400
-AR Path="/5B406A7B/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CA7A4E8" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CA7A4E8" Ref="JP29"  Part="1" 
-F 0 "JP29" V 4897 5400 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 5050 5400 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 5050 5400 50  0001 C CNN
-F 3 "~" H 5050 5400 50  0001 C CNN
-	1    5050 5400
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CA7A4EF
 P 6450 5700
@@ -912,10 +843,6 @@ $EndComp
 Wire Wire Line
 	5500 5450 5500 5500
 Wire Wire Line
-	5150 5450 5250 5450
-Wire Wire Line
-	5150 5350 5750 5350
-Wire Wire Line
 	5750 5350 5750 5800
 Connection ~ 5750 5800
 Wire Wire Line
@@ -951,7 +878,7 @@ F 1 "SolderJumper_4_Open" H 6200 5350 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 6200 5350 50  0001 C CNN
 F 3 "~" H 6200 5350 50  0001 C CNN
 	1    6200 5350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6250 5600 6200 5600
@@ -1068,27 +995,6 @@ $EndComp
 Wire Wire Line
 	4900 6900 4950 6900
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CA96139
-P 5050 6900
-AR Path="/5B406A7B/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CA96139" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CA96139" Ref="JP30"  Part="1" 
-F 0 "JP30" V 4897 6900 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 5050 6900 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 5050 6900 50  0001 C CNN
-F 3 "~" H 5050 6900 50  0001 C CNN
-	1    5050 6900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CA96140
 P 6450 7200
@@ -1177,10 +1083,6 @@ F 3 "" H 5900 7450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 6950 5500 7000
-Wire Wire Line
-	5150 6950 5250 6950
-Wire Wire Line
-	5150 6850 5750 6850
 Wire Wire Line
 	5750 6850 5750 7300
 Connection ~ 5750 7300
@@ -1334,27 +1236,6 @@ $EndComp
 Wire Wire Line
 	1900 5400 1950 5400
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CB0884A
-P 2050 5400
-AR Path="/5B406A7B/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CB0884A" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CB0884A" Ref="JP23"  Part="1" 
-F 0 "JP23" V 1897 5400 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 2050 5400 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 2050 5400 50  0001 C CNN
-F 3 "~" H 2050 5400 50  0001 C CNN
-	1    2050 5400
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CB08851
 P 3450 5700
@@ -1443,10 +1324,6 @@ F 3 "" H 2900 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 5450 2500 5500
-Wire Wire Line
-	2150 5450 2250 5450
-Wire Wire Line
-	2150 5350 2750 5350
 Wire Wire Line
 	2750 5350 2750 5800
 Connection ~ 2750 5800
@@ -1598,27 +1475,6 @@ $EndComp
 Wire Wire Line
 	1900 6900 1950 6900
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CB1DCA9
-P 2050 6900
-AR Path="/5B406A7B/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CB1DCA9" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CB1DCA9" Ref="JP24"  Part="1" 
-F 0 "JP24" V 1897 6900 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 2050 6900 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 2050 6900 50  0001 C CNN
-F 3 "~" H 2050 6900 50  0001 C CNN
-	1    2050 6900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CB1DCB0
 P 3450 7200
@@ -1708,10 +1564,6 @@ $EndComp
 Wire Wire Line
 	2500 6950 2500 7000
 Wire Wire Line
-	2150 6950 2250 6950
-Wire Wire Line
-	2150 6850 2750 6850
-Wire Wire Line
 	2750 6850 2750 7300
 Connection ~ 2750 7300
 Wire Wire Line
@@ -1747,7 +1599,7 @@ F 1 "SolderJumper_4_Open" H 3200 6850 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 3200 6850 50  0001 C CNN
 F 3 "~" H 3200 6850 50  0001 C CNN
 	1    3200 6850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	3250 7100 3200 7100
@@ -1864,27 +1716,6 @@ $EndComp
 Wire Wire Line
 	7900 5400 7950 5400
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CB39D5D
-P 8050 5400
-AR Path="/5B406A7B/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CB39D5D" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CB39D5D" Ref="JP35"  Part="1" 
-F 0 "JP35" V 7897 5400 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 8050 5400 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 8050 5400 50  0001 C CNN
-F 3 "~" H 8050 5400 50  0001 C CNN
-	1    8050 5400
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CB39D64
 P 9450 5700
@@ -1974,10 +1805,6 @@ $EndComp
 Wire Wire Line
 	8500 5450 8500 5500
 Wire Wire Line
-	8150 5450 8250 5450
-Wire Wire Line
-	8150 5350 8750 5350
-Wire Wire Line
 	8750 5350 8750 5800
 Connection ~ 8750 5800
 Wire Wire Line
@@ -2013,7 +1840,7 @@ F 1 "SolderJumper_4_Open" H 9200 5350 50  0001 C CNN
 F 2 "_Generic:SolderJumper_JST" H 9200 5350 50  0001 C CNN
 F 3 "~" H 9200 5350 50  0001 C CNN
 	1    9200 5350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9250 5600 9200 5600
@@ -2130,27 +1957,6 @@ $EndComp
 Wire Wire Line
 	7900 3900 7950 3900
 $Comp
-L #PCB_Only:SolderJumper_3_Open JP?
-U 1 1 5CB5A73E
-P 8050 3900
-AR Path="/5B406A7B/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5AB3A5/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B2BBC/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B564F/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5B80D6/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BAB69/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5BD5F0/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/5C5C0077/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/5AF7E834/606BF39C/5CB5A73E" Ref="JP?"  Part="1" 
-AR Path="/606BF39C/5CB5A73E" Ref="JP34"  Part="1" 
-F 0 "JP34" V 7897 3900 50  0000 C CNN
-F 1 "SolderJumper_3_Open" H 8050 3900 50  0001 C CNN
-F 2 "_Generic:Solder Jumper 3P" H 8050 3900 50  0001 C CNN
-F 3 "~" H 8050 3900 50  0001 C CNN
-	1    8050 3900
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5CB5A745
 P 9450 4200
@@ -2239,10 +2045,6 @@ F 3 "" H 8900 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8500 3950 8500 4000
-Wire Wire Line
-	8150 3950 8250 3950
-Wire Wire Line
-	8150 3850 8750 3850
 Wire Wire Line
 	8750 3850 8750 4300
 Connection ~ 8750 4300
@@ -2675,4 +2477,282 @@ F 3 "" H 5050 950 50  0001 C CNN
 	1    5050 950 
 	1    0    0    -1  
 $EndComp
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP5
+U 1 1 5D2E8E5B
+P 2500 3850
+F 0 "JP5" H 2500 3963 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2500 3850 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2500 3850 50  0001 C CNN
+F 3 "~" H 2500 3850 50  0001 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3850 2750 3850
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP2
+U 1 1 5D2E9504
+P 2100 3950
+F 0 "JP2" H 2100 4063 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2100 3950 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2100 3950 50  0001 C CNN
+F 3 "~" H 2100 3950 50  0001 C CNN
+	1    2100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3950 1950 3950
+Wire Wire Line
+	1950 3950 1950 3900
+Wire Wire Line
+	2400 3850 1950 3850
+Wire Wire Line
+	1950 3850 1950 3900
+Connection ~ 1950 3900
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP11
+U 1 1 5D36A32D
+P 5500 3850
+F 0 "JP11" H 5500 3963 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5500 3850 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5500 3850 50  0001 C CNN
+F 3 "~" H 5500 3850 50  0001 C CNN
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3850 5750 3850
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP23
+U 1 1 5D36AE31
+P 8500 3850
+F 0 "JP23" H 8500 3963 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 8500 3850 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 8500 3850 50  0001 C CNN
+F 3 "~" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3850 8750 3850
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP24
+U 1 1 5D36B97F
+P 8500 5350
+F 0 "JP24" H 8500 5463 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 8500 5350 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 8500 5350 50  0001 C CNN
+F 3 "~" H 8500 5350 50  0001 C CNN
+	1    8500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 5350 8750 5350
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP12
+U 1 1 5D36F1F1
+P 5500 5350
+F 0 "JP12" H 5500 5463 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5500 5350 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5500 5350 50  0001 C CNN
+F 3 "~" H 5500 5350 50  0001 C CNN
+	1    5500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5350 5750 5350
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP13
+U 1 1 5D36FAFB
+P 5500 6850
+F 0 "JP13" H 5500 6963 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5500 6850 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5500 6850 50  0001 C CNN
+F 3 "~" H 5500 6850 50  0001 C CNN
+	1    5500 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6850 5750 6850
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP6
+U 1 1 5D374F2A
+P 2500 5350
+F 0 "JP6" H 2500 5463 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2500 5350 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2500 5350 50  0001 C CNN
+F 3 "~" H 2500 5350 50  0001 C CNN
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5350 2750 5350
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP7
+U 1 1 5D37598E
+P 2500 6850
+F 0 "JP7" H 2500 6963 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2500 6850 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2500 6850 50  0001 C CNN
+F 3 "~" H 2500 6850 50  0001 C CNN
+	1    2500 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6850 2750 6850
+Wire Wire Line
+	7950 5350 7950 5400
+Wire Wire Line
+	7950 5350 8400 5350
+Wire Wire Line
+	7950 5400 7950 5450
+Wire Wire Line
+	7950 5450 8000 5450
+Connection ~ 7950 5400
+Wire Wire Line
+	7950 3850 7950 3900
+Wire Wire Line
+	7950 3850 8400 3850
+Wire Wire Line
+	7950 3900 7950 3950
+Wire Wire Line
+	7950 3950 8000 3950
+Connection ~ 7950 3900
+Wire Wire Line
+	4950 3950 4950 3900
+Wire Wire Line
+	4950 3950 5000 3950
+Wire Wire Line
+	4950 3900 4950 3850
+Wire Wire Line
+	4950 3850 5400 3850
+Connection ~ 4950 3900
+Wire Wire Line
+	1950 5400 1950 5350
+Wire Wire Line
+	1950 5350 2400 5350
+Wire Wire Line
+	1950 5450 1950 5400
+Wire Wire Line
+	1950 5450 2000 5450
+Connection ~ 1950 5400
+Wire Wire Line
+	4950 5400 4950 5350
+Wire Wire Line
+	4950 5350 5400 5350
+Wire Wire Line
+	4950 5450 4950 5400
+Wire Wire Line
+	4950 5450 5000 5450
+Connection ~ 4950 5400
+Wire Wire Line
+	4950 6900 4950 6850
+Wire Wire Line
+	4950 6850 5400 6850
+Wire Wire Line
+	4950 6950 4950 6900
+Wire Wire Line
+	4950 6950 5000 6950
+Connection ~ 4950 6900
+Wire Wire Line
+	1950 6900 1950 6850
+Wire Wire Line
+	1950 6850 2400 6850
+Wire Wire Line
+	1950 6950 1950 6900
+Wire Wire Line
+	1950 6950 2000 6950
+Connection ~ 1950 6900
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP3
+U 1 1 5D55893E
+P 2100 5450
+F 0 "JP3" H 2100 5563 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2100 5450 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2100 5450 50  0001 C CNN
+F 3 "~" H 2100 5450 50  0001 C CNN
+	1    2100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5450 2250 5450
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP4
+U 1 1 5D5591B8
+P 2100 6950
+F 0 "JP4" H 2100 7063 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2100 6950 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 2100 6950 50  0001 C CNN
+F 3 "~" H 2100 6950 50  0001 C CNN
+	1    2100 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6950 2250 6950
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP10
+U 1 1 5D559A48
+P 5100 6950
+F 0 "JP10" H 5100 7063 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5100 6950 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5100 6950 50  0001 C CNN
+F 3 "~" H 5100 6950 50  0001 C CNN
+	1    5100 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6950 5250 6950
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP9
+U 1 1 5D55A3A8
+P 5100 5450
+F 0 "JP9" H 5100 5563 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5100 5450 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5100 5450 50  0001 C CNN
+F 3 "~" H 5100 5450 50  0001 C CNN
+	1    5100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5450 5250 5450
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP8
+U 1 1 5D55AC64
+P 5100 3950
+F 0 "JP8" H 5100 4063 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5100 3950 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5100 3950 50  0001 C CNN
+F 3 "~" H 5100 3950 50  0001 C CNN
+	1    5100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3950 5250 3950
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP14
+U 1 1 5D55B536
+P 8100 3950
+F 0 "JP14" H 8100 4063 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 8100 3950 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 8100 3950 50  0001 C CNN
+F 3 "~" H 8100 3950 50  0001 C CNN
+	1    8100 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3950 8250 3950
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP22
+U 1 1 5D55BEA4
+P 8100 5450
+F 0 "JP22" H 8100 5563 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 8100 5450 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 8100 5450 50  0001 C CNN
+F 3 "~" H 8100 5450 50  0001 C CNN
+	1    8100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5450 8250 5450
 $EndSCHEMATC
