@@ -1058,28 +1058,6 @@ Connection ~ 10500 3600
 Wire Wire Line
 	10500 3600 10500 3750
 Connection ~ 10500 3450
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5C4CA30F
-P 1700 3800
-F 0 "H5" H 1800 3846 50  0000 L CNN
-F 1 "MountingHole" H 1800 3755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1700 3800 50  0001 C CNN
-F 3 "~" H 1700 3800 50  0001 C CNN
-	1    1700 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 5C4CA407
-P 1700 4050
-F 0 "H6" H 1800 4096 50  0000 L CNN
-F 1 "MountingHole" H 1800 4005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1700 4050 50  0001 C CNN
-F 3 "~" H 1700 4050 50  0001 C CNN
-	1    1700 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10500 4350 10500 4500
 Wire Notes Line
