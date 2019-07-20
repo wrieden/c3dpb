@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 1 19
 Title "Kajikia - Main Sheet"
 Date "2019-01-23"
 Rev "1.0"
@@ -1240,38 +1240,52 @@ F1 "io.sch" 50
 F2 "IO" B R 2100 7550 50 
 $EndSheet
 $Sheet
-S 950  5850 550  200 
-U 5DC28D35
-F0 "IO6" 50
-F1 "io_rev.sch" 50
-F2 "IO" B L 950 5950 50 
-$EndSheet
-$Sheet
 S 950  6250 550  200 
-U 5DC34FAD
-F0 "IO7" 50
+U 5DC28D35
+F0 "IO8" 50
 F1 "io_rev.sch" 50
 F2 "IO" B L 950 6350 50 
 $EndSheet
 $Sheet
 S 950  6650 550  200 
-U 5DC40D95
-F0 "IO8" 50
+U 5DC34FAD
+F0 "IO9" 50
 F1 "io_rev.sch" 50
 F2 "IO" B L 950 6750 50 
 $EndSheet
 $Sheet
 S 950  7050 550  200 
-U 5DC4CB7D
-F0 "IO9" 50
+U 5DC40D95
+F0 "IO10" 50
 F1 "io_rev.sch" 50
 F2 "IO" B L 950 7150 50 
 $EndSheet
 $Sheet
+S 950  7850 550  200 
+U 5DC4CB7D
+F0 "IO12" 50
+F1 "io_rev.sch" 50
+F2 "IO" B L 950 7950 50 
+$EndSheet
+$Sheet
 S 950  7450 550  200 
 U 5DC58965
-F0 "IO10" 50
+F0 "IO11" 50
 F1 "io_rev.sch" 50
 F2 "IO" B L 950 7550 50 
+$EndSheet
+$Sheet
+S 1550 7850 550  200 
+U 5D38DAD4
+F0 "IO6" 50
+F1 "io.sch" 50
+F2 "IO" B R 2100 7950 50 
+$EndSheet
+$Sheet
+S 950  5850 550  200 
+U 5D399F3E
+F0 "IO7" 50
+F1 "io_rev.sch" 50
+F2 "IO" B L 950 5950 50 
 $EndSheet
 $EndSCHEMATC
