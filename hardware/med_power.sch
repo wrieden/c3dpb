@@ -1,0 +1,372 @@
+EESchema Schematic File Version 4
+LIBS:c3dpb-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6500 3150 6650 3150
+Wire Wire Line
+	6500 3200 6500 3150
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5DB5A825
+P 6650 3750
+AR Path="/5B406A7B/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5AB3A5/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5B2BBC/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5B564F/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5B80D6/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5BAB69/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5BD5F0/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/5C5C0077/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5AF7E834/606BF39C/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/606BF39C/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5DB36909/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5DB707F1/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5DB7C613/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5DB8842D/5DB5A825" Ref="J?"  Part="1" 
+AR Path="/5DB94247/5DB5A825" Ref="J?"  Part="1" 
+F 0 "J?" H 6730 3792 50  0000 L CNN
+F 1 "Conn_01x03" H 6730 3701 50  0001 L CNN
+F 2 "_Generic:JST_XH_3P" H 6650 3750 50  0001 C CNN
+F 3 "~" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3650 6400 3650
+Wire Wire Line
+	6100 3750 6450 3750
+Wire Wire Line
+	5800 3850 6450 3850
+Wire Wire Line
+	6400 3450 6400 3650
+Wire Wire Line
+	6100 3450 6400 3450
+Connection ~ 6400 3450
+Wire Wire Line
+	6400 3450 6400 3400
+$Comp
+L #PCB_Only:SolderJumper_4_Open JP?
+U 1 1 5DB5A832
+P 6400 3300
+AR Path="/606BF39C/5DB5A832" Ref="JP?"  Part="1" 
+AR Path="/5DB36909/5DB5A832" Ref="JP?"  Part="1" 
+AR Path="/5DB707F1/5DB5A832" Ref="JP?"  Part="1" 
+AR Path="/5DB7C613/5DB5A832" Ref="JP?"  Part="1" 
+AR Path="/5DB8842D/5DB5A832" Ref="JP?"  Part="1" 
+AR Path="/5DB94247/5DB5A832" Ref="JP?"  Part="1" 
+F 0 "JP?" H 6558 3300 50  0000 L CNN
+F 1 "SolderJumper_4_Open" H 6400 3300 50  0001 C CNN
+F 2 "_Generic:SolderJumper_JST" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+	1    6400 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3200 6400 3100
+Wire Wire Line
+	6300 3200 6300 3150
+$Comp
+L power:+12V #PWR?
+U 1 1 5DB5A83A
+P 6400 3100
+AR Path="/5AF7E834/5C5AB3A5/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B2BBC/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B564F/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B80D6/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5BAB69/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5BD5F0/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5C0077/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/606BF39C/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/606BF39C/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB36909/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB707F1/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7C613/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB8842D/5DB5A83A" Ref="#PWR?"  Part="1" 
+AR Path="/5DB94247/5DB5A83A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 2950 50  0001 C CNN
+F 1 "+12V" H 6415 3273 50  0000 C CNN
+F 2 "" H 6400 3100 50  0001 C CNN
+F 3 "" H 6400 3100 50  0001 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3150 6150 3150
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB5A841
+P 6150 3100
+AR Path="/5AF7E834/5C5AB3A5/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B2BBC/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B564F/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5B80D6/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5BAB69/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5BD5F0/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/5C5C0077/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5AF7E834/606BF39C/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/606BF39C/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5DB36909/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5DB707F1/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7C613/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5DB8842D/5DB5A841" Ref="#PWR?"  Part="1" 
+AR Path="/5DB94247/5DB5A841" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6150 2950 50  0001 C CNN
+F 1 "+5V" H 6165 3273 50  0000 C CNN
+F 2 "" H 6150 3100 50  0001 C CNN
+F 3 "" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3150 6150 3100
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP?
+U 1 1 5DB5A848
+P 5450 3300
+AR Path="/606BF39C/5DB5A848" Ref="JP?"  Part="1" 
+AR Path="/5DB36909/5DB5A848" Ref="JP?"  Part="1" 
+AR Path="/5DB707F1/5DB5A848" Ref="JP?"  Part="1" 
+AR Path="/5DB7C613/5DB5A848" Ref="JP?"  Part="1" 
+AR Path="/5DB8842D/5DB5A848" Ref="JP?"  Part="1" 
+AR Path="/5DB94247/5DB5A848" Ref="JP?"  Part="1" 
+F 0 "JP?" V 5450 3368 50  0000 L CNN
+F 1 "SolderJumper_2_Open" H 5450 3300 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5450 3300 50  0001 C CNN
+F 3 "~" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	0    -1   1    0   
+$EndComp
+$Comp
+L #PCB_Only:SolderJumper_2_Open JP?
+U 1 1 5DB5A84E
+P 5800 3300
+AR Path="/606BF39C/5DB5A84E" Ref="JP?"  Part="1" 
+AR Path="/5DB36909/5DB5A84E" Ref="JP?"  Part="1" 
+AR Path="/5DB707F1/5DB5A84E" Ref="JP?"  Part="1" 
+AR Path="/5DB7C613/5DB5A84E" Ref="JP?"  Part="1" 
+AR Path="/5DB8842D/5DB5A84E" Ref="JP?"  Part="1" 
+AR Path="/5DB94247/5DB5A84E" Ref="JP?"  Part="1" 
+F 0 "JP?" V 5800 3232 50  0000 R CNN
+F 1 "SolderJumper_2_Open" H 5800 3300 50  0001 C CNN
+F 2 "_Generic:Solder Jumper 2P" H 5800 3300 50  0001 C CNN
+F 3 "~" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5800 3400 5800 3850
+Wire Wire Line
+	4600 3150 4850 3150
+Connection ~ 4600 3150
+Connection ~ 4600 3450
+Wire Wire Line
+	4600 3450 4600 3150
+Connection ~ 5000 3450
+Wire Wire Line
+	4600 3450 5000 3450
+Wire Wire Line
+	4600 3500 4600 3450
+Wire Wire Line
+	4600 3850 5000 3850
+Wire Wire Line
+	4600 3800 4600 3850
+$Comp
+L Device:D_Zener D?
+U 1 1 5DB5A864
+P 4600 3650
+AR Path="/606BF39C/5DB5A864" Ref="D?"  Part="1" 
+AR Path="/5DB36909/5DB5A864" Ref="D?"  Part="1" 
+AR Path="/5DB707F1/5DB5A864" Ref="D?"  Part="1" 
+AR Path="/5DB7C613/5DB5A864" Ref="D?"  Part="1" 
+AR Path="/5DB8842D/5DB5A864" Ref="D?"  Part="1" 
+AR Path="/5DB94247/5DB5A864" Ref="D?"  Part="1" 
+F 0 "D?" V 4554 3729 50  0000 L CNN
+F 1 "3.6v" V 4645 3729 50  0000 L CNN
+F 2 "_Generic:SOD-523_DIODE" H 4600 3650 50  0001 C CNN
+F 3 "~" H 4600 3650 50  0001 C CNN
+	1    4600 3650
+	0    1    1    0   
+$EndComp
+Connection ~ 6100 3750
+Wire Wire Line
+	6100 3750 6100 3900
+Wire Wire Line
+	6100 3750 6100 3700
+Wire Wire Line
+	5800 3150 5800 3200
+Wire Wire Line
+	5450 3200 5450 3150
+Wire Wire Line
+	5450 3400 5450 3450
+Wire Wire Line
+	5000 3800 5000 3850
+Wire Wire Line
+	5000 3850 5250 3850
+Connection ~ 5000 3850
+Wire Wire Line
+	5000 3500 5000 3450
+Wire Wire Line
+	4400 3150 4600 3150
+Text HLabel 4400 3150 0    50   BiDi ~ 0
+IO
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5DB5A876
+P 5450 3750
+AR Path="/606BF39C/5DB5A876" Ref="Q?"  Part="1" 
+AR Path="/5DB36909/5DB5A876" Ref="Q?"  Part="1" 
+AR Path="/5DB707F1/5DB5A876" Ref="Q?"  Part="1" 
+AR Path="/5DB7C613/5DB5A876" Ref="Q?"  Part="1" 
+AR Path="/5DB8842D/5DB5A876" Ref="Q?"  Part="1" 
+AR Path="/5DB94247/5DB5A876" Ref="Q?"  Part="1" 
+F 0 "Q?" V 5700 3750 50  0000 C CNN
+F 1 "AO3402" V 5791 3750 50  0000 C CNN
+F 2 "_Generic:SOT-23" H 5650 3850 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5450 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3850 5800 3850
+Connection ~ 5800 3850
+$Comp
+L #Power:GND #PWR?
+U 1 1 5DB5A87E
+P 6100 3900
+AR Path="/606BF39C/5DB5A87E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB36909/5DB5A87E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB707F1/5DB5A87E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7C613/5DB5A87E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB8842D/5DB5A87E" Ref="#PWR?"  Part="1" 
+AR Path="/5DB94247/5DB5A87E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6100 3650 50  0001 C CNN
+F 1 "GND" H 6100 3750 50  0001 C CNN
+F 2 "" H 6100 3900 50  0001 C CNN
+F 3 "" H 6100 3900 50  0001 C CNN
+	1    6100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3450 5450 3550
+$Comp
+L power:+24V #PWR?
+U 1 1 5DB5A885
+P 6650 3100
+AR Path="/606BF39C/5DB5A885" Ref="#PWR?"  Part="1" 
+AR Path="/5DB36909/5DB5A885" Ref="#PWR?"  Part="1" 
+AR Path="/5DB707F1/5DB5A885" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7C613/5DB5A885" Ref="#PWR?"  Part="1" 
+AR Path="/5DB8842D/5DB5A885" Ref="#PWR?"  Part="1" 
+AR Path="/5DB94247/5DB5A885" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 2950 50  0001 C CNN
+F 1 "+24V" H 6665 3273 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3150 6650 3100
+$Comp
+L #Power:GND #PWR?
+U 1 1 5DB5A88C
+P 5000 3900
+AR Path="/606BF39C/5DB5A88C" Ref="#PWR?"  Part="1" 
+AR Path="/5DB36909/5DB5A88C" Ref="#PWR?"  Part="1" 
+AR Path="/5DB707F1/5DB5A88C" Ref="#PWR?"  Part="1" 
+AR Path="/5DB7C613/5DB5A88C" Ref="#PWR?"  Part="1" 
+AR Path="/5DB8842D/5DB5A88C" Ref="#PWR?"  Part="1" 
+AR Path="/5DB94247/5DB5A88C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 3650 50  0001 C CNN
+F 1 "GND" H 5000 3750 50  0001 C CNN
+F 2 "" H 5000 3900 50  0001 C CNN
+F 3 "" H 5000 3900 50  0001 C CNN
+	1    5000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3900 5000 3850
+$Comp
+L Device:C_Small C?
+U 1 1 5DB5A893
+P 6100 3600
+AR Path="/606BF39C/5DB5A893" Ref="C?"  Part="1" 
+AR Path="/5DB36909/5DB5A893" Ref="C?"  Part="1" 
+AR Path="/5DB707F1/5DB5A893" Ref="C?"  Part="1" 
+AR Path="/5DB7C613/5DB5A893" Ref="C?"  Part="1" 
+AR Path="/5DB8842D/5DB5A893" Ref="C?"  Part="1" 
+AR Path="/5DB94247/5DB5A893" Ref="C?"  Part="1" 
+F 0 "C?" H 6192 3646 50  0000 L CNN
+F 1 "4.7u" H 6192 3555 50  0000 L CNN
+F 2 "_Generic:0805_CAP" H 6100 3600 50  0001 C CNN
+F 3 "~" H 6100 3600 50  0001 C CNN
+	1    6100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3500 6100 3450
+$Comp
+L Device:R R?
+U 1 1 5DB5A89A
+P 5000 3650
+AR Path="/606BF39C/5DB5A89A" Ref="R?"  Part="1" 
+AR Path="/5DB36909/5DB5A89A" Ref="R?"  Part="1" 
+AR Path="/5DB707F1/5DB5A89A" Ref="R?"  Part="1" 
+AR Path="/5DB7C613/5DB5A89A" Ref="R?"  Part="1" 
+AR Path="/5DB8842D/5DB5A89A" Ref="R?"  Part="1" 
+AR Path="/5DB94247/5DB5A89A" Ref="R?"  Part="1" 
+F 0 "R?" H 4930 3696 50  0000 R CNN
+F 1 "1meg" H 4930 3605 50  0000 R CNN
+F 2 "_Generic:0603_RES" V 4930 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+	1    5000 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB5A8A0
+P 5000 3150
+AR Path="/5B406A7B/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5AB3A5/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5B2BBC/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5B564F/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5B80D6/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5BAB69/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5BD5F0/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/5C5C0077/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5AF7E834/606BF39C/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/606BF39C/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5DB36909/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5DB707F1/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5DB7C613/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5DB8842D/5DB5A8A0" Ref="R?"  Part="1" 
+AR Path="/5DB94247/5DB5A8A0" Ref="R?"  Part="1" 
+F 0 "R?" V 5207 3150 50  0000 C CNN
+F 1 "4.7k" V 5116 3150 50  0000 C CNN
+F 2 "_Generic:0603_RES" V 4930 3150 50  0001 C CNN
+F 3 "~" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5450 3150
+Wire Wire Line
+	5450 3150 5800 3150
+Connection ~ 5450 3450
+Wire Wire Line
+	5150 3150 5450 3150
+Wire Wire Line
+	5000 3450 5450 3450
+$EndSCHEMATC
