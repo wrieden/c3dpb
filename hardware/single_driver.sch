@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 19
+Sheet 7 19
 Title "Kajikia - Stepper Driver"
 Date "2019-01-23"
 Rev "1.0"
@@ -349,10 +349,6 @@ NoConn ~ 5100 5250
 Wire Wire Line
 	5850 2750 6050 2750
 Wire Wire Line
-	6250 2750 6250 2650
-Wire Wire Line
-	6250 2450 6250 2250
-Wire Wire Line
 	3850 3850 4100 3850
 Wire Wire Line
 	3850 3950 4100 3950
@@ -560,8 +556,6 @@ F 3 "" H 6250 2850 50  0001 C CNN
 	1    6250 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 2250 6050 2250
 Connection ~ 4750 2250
 Wire Wire Line
 	4750 2250 4750 3150
@@ -572,27 +566,6 @@ Wire Wire Line
 Connection ~ 5850 2250
 Wire Wire Line
 	5850 2250 5650 2250
-Connection ~ 6250 2750
-$Comp
-L Device:CP1_Small C?
-U 1 1 5D86695A
-P 6250 2550
-AR Path="/60C2EDFB/60ECA8FF/5D86695A" Ref="C?"  Part="1" 
-AR Path="/60C2EDFB/5B411670/5D86695A" Ref="C?"  Part="1" 
-AR Path="/60C2EDFB/60ECD6D9/5D86695A" Ref="C?"  Part="1" 
-AR Path="/60C2EDFB/60ED586F/5D86695A" Ref="C?"  Part="1" 
-AR Path="/60C2EDFB/60ED8641/5D86695A" Ref="C?"  Part="1" 
-AR Path="/5D8A86C3/5D86695A" Ref="C111"  Part="1" 
-AR Path="/5D8C6DBC/5D86695A" Ref="C53"  Part="1" 
-AR Path="/5D8E4767/5D86695A" Ref="C89"  Part="1" 
-AR Path="/5D90218A/5D86695A" Ref="C100"  Part="1" 
-F 0 "C111" H 6341 2596 50  0000 L CNN
-F 1 "100u" H 6341 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 6250 2550 50  0001 C CNN
-F 3 "~" H 6250 2550 50  0001 C CNN
-	1    6250 2550
-	1    0    0    -1  
-$EndComp
 Connection ~ 7750 4450
 Connection ~ 8150 4550
 Connection ~ 7350 4250
@@ -1046,7 +1019,6 @@ Wire Wire Line
 Connection ~ 6050 2750
 Wire Wire Line
 	6050 2750 6250 2750
-Connection ~ 6050 2250
 Wire Wire Line
 	6050 2250 5850 2250
 $EndSCHEMATC
