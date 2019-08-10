@@ -1,4 +1,4 @@
-15830125658272608
+15837969056750720
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44015,6 +44015,13 @@ EMI Filter
 0
 19
 4
+footprints
+QFN42L
+
+
+0
+52
+52
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin
@@ -71085,6 +71092,13 @@ connector JST XH side entry
 4
 4
 _Generic
+KBL410
+
+
+0
+4
+4
+_Generic
 KF635-2P
 
 
@@ -71105,6 +71119,13 @@ Through hole pin header THT 1x01 2.54mm single row
 0
 1
 1
+_Generic
+PQ3230
+
+
+0
+12
+12
 _Generic
 SMA_DIODE
 
@@ -71196,3 +71217,17 @@ TYPE-C-31-M-12
 0
 20
 17
+_Generic
+UU10.5
+
+
+0
+4
+4
+_Generic
+YCap_D8.0mm_W5.0mm_P10.00mm
+C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=8*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
+C Disc series Radial pin pitch 10.00mm  diameter 8mm width 5.0mm Capacitor
+0
+2
+2

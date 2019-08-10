@@ -174,17 +174,6 @@ $EndComp
 Wire Wire Line
 	5850 1450 5850 1500
 $Comp
-L Regulator_Linear:LM1117-3.3 U2
-U 1 1 5D1AD64C
-P 2450 6750
-F 0 "U2" H 2450 6992 50  0000 C CNN
-F 1 "LM1117-3.3" H 2450 6901 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2450 6750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2450 6750 50  0001 C CNN
-	1    2450 6750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR014
 U 1 1 5D1AD873
 P 1550 6500
@@ -211,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 7300 2450 7300
 Wire Wire Line
-	2450 7300 2450 7050
+	2450 7300 2450 7150
 Wire Wire Line
 	2150 6750 2050 6750
 Wire Wire Line
@@ -367,26 +356,8 @@ F 3 "~" H 10800 1950 50  0001 C CNN
 	1    10800 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L #Connector:Conn_01x01 J44
-U 1 1 5D3E3C80
-P 10800 1800
-F 0 "J44" H 10800 1900 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 1700 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 1800 50  0001 C CNN
-F 3 "~" H 10800 1800 50  0001 C CNN
-	1    10800 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 1800 10500 1800
-Connection ~ 10500 1800
-Wire Wire Line
-	10500 1800 10500 1700
 Wire Wire Line
 	10500 1950 10600 1950
-Wire Wire Line
-	10500 1950 10500 1800
 $Comp
 L #Connector:Conn_01x01 J48
 U 1 1 5D3F0C68
@@ -398,55 +369,10 @@ F 3 "~" H 10800 2400 50  0001 C CNN
 	1    10800 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L #Connector:Conn_01x01 J51
-U 1 1 5D3F0C74
-P 10800 2550
-F 0 "J51" H 10800 2650 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 2450 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 2550 50  0001 C CNN
-F 3 "~" H 10800 2550 50  0001 C CNN
-	1    10800 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10600 2400 10500 2400
-Connection ~ 10500 2400
 Wire Wire Line
 	10500 2400 10500 2300
-Wire Wire Line
-	10500 2550 10600 2550
-Wire Wire Line
-	10500 2550 10500 2400
-$Comp
-L #Connector:Conn_01x01 J54
-U 1 1 5D3FE864
-P 10800 3300
-F 0 "J54" H 10800 3400 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 3200 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 3300 50  0001 C CNN
-F 3 "~" H 10800 3300 50  0001 C CNN
-	1    10800 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L #Connector:Conn_01x01 J55
-U 1 1 5D3FE86A
-P 10800 3450
-F 0 "J55" H 10800 3550 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 3350 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 3450 50  0001 C CNN
-F 3 "~" H 10800 3450 50  0001 C CNN
-	1    10800 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 3450 10500 3450
-Wire Wire Line
-	10500 3450 10500 3300
-Wire Wire Line
-	10600 3300 10500 3300
-Connection ~ 10500 3300
 $Comp
 L power:+12V #PWR039
 U 1 1 5D40D514
@@ -781,10 +707,6 @@ F 3 "" H 1700 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 4950 1100 5050
-Wire Wire Line
-	1100 5050 1500 5050
-Wire Wire Line
 	2300 5050 2300 4950
 Wire Wire Line
 	1900 4950 1900 5050
@@ -793,7 +715,6 @@ Wire Wire Line
 	1900 5050 2300 5050
 Wire Wire Line
 	1500 5050 1500 4950
-Connection ~ 1500 5050
 Wire Wire Line
 	1500 5050 1700 5050
 Wire Wire Line
@@ -837,17 +758,6 @@ Wire Wire Line
 Wire Wire Line
 	10500 2900 10500 3000
 $Comp
-L #Connector:Conn_01x01 J50
-U 1 1 5CC9E663
-P 10800 5550
-F 0 "J50" H 10800 5650 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 5450 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 5550 50  0001 C CNN
-F 3 "~" H 10800 5550 50  0001 C CNN
-	1    10800 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L #Connector:Conn_01x01 J49
 U 1 1 5CC9E669
 P 10800 5400
@@ -860,78 +770,7 @@ F 3 "~" H 10800 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10600 5400 10500 5400
-Wire Wire Line
-	10500 5550 10600 5550
-Connection ~ 10500 5550
-Wire Wire Line
-	10500 5550 10500 5400
-Wire Wire Line
-	10500 5700 10500 5550
 Connection ~ 10500 5700
-$Comp
-L #Connector:Conn_01x01 J70
-U 1 1 5CD34036
-P 10800 5250
-F 0 "J70" H 10800 5350 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 5150 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 5250 50  0001 C CNN
-F 3 "~" H 10800 5250 50  0001 C CNN
-	1    10800 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L #Connector:Conn_01x01 J69
-U 1 1 5CD3403C
-P 10800 5100
-F 0 "J69" H 10800 5200 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 5000 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 5100 50  0001 C CNN
-F 3 "~" H 10800 5100 50  0001 C CNN
-	1    10800 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 5100 10500 5100
-Wire Wire Line
-	10500 5250 10600 5250
-Connection ~ 10500 5250
-Wire Wire Line
-	10500 5250 10500 5100
-Wire Wire Line
-	10500 5400 10500 5250
-$Comp
-L #Connector:Conn_01x01 J68
-U 1 1 5CD34047
-P 10800 4950
-F 0 "J68" H 10800 5050 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 4850 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 4950 50  0001 C CNN
-F 3 "~" H 10800 4950 50  0001 C CNN
-	1    10800 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L #Connector:Conn_01x01 J53
-U 1 1 5CD3404D
-P 10800 4800
-F 0 "J53" H 10800 4900 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 4700 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 4800 50  0001 C CNN
-F 3 "~" H 10800 4800 50  0001 C CNN
-	1    10800 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 4800 10500 4800
-Wire Wire Line
-	10500 4950 10600 4950
-Connection ~ 10500 4950
-Wire Wire Line
-	10500 4950 10500 4800
-Wire Wire Line
-	10500 5100 10500 4950
-Connection ~ 10500 5100
-Connection ~ 10500 5400
 $Comp
 L #Connector:Conn_01x01 J95
 U 1 1 5CD4C1E6
@@ -945,9 +784,6 @@ F 3 "~" H 10800 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10600 3150 10500 3150
-Connection ~ 10500 3150
-Wire Wire Line
-	10500 3150 10500 3300
 $Comp
 L #Connector:Conn_01x01 J94
 U 1 1 5CD6314B
@@ -964,102 +800,6 @@ Wire Wire Line
 Connection ~ 10500 3000
 Wire Wire Line
 	10500 3000 10500 3150
-$Comp
-L #Connector:Conn_01x01 J99
-U 1 1 5CD9E666
-P 10800 4650
-F 0 "J99" H 10800 4750 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 4550 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 4650 50  0001 C CNN
-F 3 "~" H 10800 4650 50  0001 C CNN
-	1    10800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L #Connector:Conn_01x01 J98
-U 1 1 5CD9E66C
-P 10800 4500
-F 0 "J98" H 10800 4600 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 4400 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 4500 50  0001 C CNN
-F 3 "~" H 10800 4500 50  0001 C CNN
-	1    10800 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 4500 10500 4500
-Wire Wire Line
-	10500 4650 10600 4650
-Connection ~ 10500 4650
-Wire Wire Line
-	10500 4650 10500 4500
-Wire Wire Line
-	10500 4800 10500 4650
-$Comp
-L #Connector:Conn_01x01 J96
-U 1 1 5CD9E67D
-P 10800 4350
-F 0 "J96" H 10800 4450 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 4250 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 4350 50  0001 C CNN
-F 3 "~" H 10800 4350 50  0001 C CNN
-	1    10800 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 4350 10500 4350
-Connection ~ 10500 4500
-Connection ~ 10500 4800
-$Comp
-L #Connector:Conn_01x01 J102
-U 1 1 5CDB6A7A
-P 10800 3900
-F 0 "J102" H 10800 4000 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 3800 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 3900 50  0001 C CNN
-F 3 "~" H 10800 3900 50  0001 C CNN
-	1    10800 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 3900 10500 3900
-Wire Wire Line
-	10500 3450 10500 3600
-$Comp
-L #Connector:Conn_01x01 J101
-U 1 1 5CDB6A8B
-P 10800 3750
-F 0 "J101" H 10800 3850 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 3650 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 3750 50  0001 C CNN
-F 3 "~" H 10800 3750 50  0001 C CNN
-	1    10800 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 3750 10500 3750
-Connection ~ 10500 3750
-Wire Wire Line
-	10500 3750 10500 3900
-$Comp
-L #Connector:Conn_01x01 J100
-U 1 1 5CDB6A94
-P 10800 3600
-F 0 "J100" H 10800 3700 50  0001 C CNN
-F 1 "Conn_01x01" H 10800 3500 50  0001 C CNN
-F 2 "_Generic:PinHeader_2.54mm_1P" H 10800 3600 50  0001 C CNN
-F 3 "~" H 10800 3600 50  0001 C CNN
-	1    10800 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10600 3600 10500 3600
-Connection ~ 10500 3600
-Wire Wire Line
-	10500 3600 10500 3750
-Connection ~ 10500 3450
-Wire Wire Line
-	10500 4350 10500 4500
 Wire Notes Line
 	550  3150 10100 3150
 Wire Wire Line
@@ -1827,4 +1567,25 @@ Connection ~ 2900 1350
 Wire Wire Line
 	3050 2250 2900 2250
 Connection ~ 2900 2250
+$Comp
+L Regulator_Linear:MIC5219-3.3YM5 U2
+U 1 1 5D4E5A7B
+P 2450 6850
+F 0 "U2" H 2450 7192 50  0000 C CNN
+F 1 "SE5218ALG-LF" H 2450 7101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2450 7175 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 2450 6850 50  0001 C CNN
+	1    2450 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6850 2050 6850
+Wire Wire Line
+	2050 6850 2050 6750
+NoConn ~ 2750 6850
+Wire Wire Line
+	10500 1700 10500 1950
+Wire Wire Line
+	10500 5400 10500 5700
+NoConn ~ 1100 4950
 $EndSCHEMATC
