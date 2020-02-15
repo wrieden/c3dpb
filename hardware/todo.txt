@@ -1,7 +1,7 @@
 use address mode for tmc2209
-add diode to power outputs
-remove silkscreen lines between pinout
-print polarity on top layer
-narrow pins on buck footprint
-sot23 footprint too small
-more space between some components
+add diode to power outputs 			done a
+remove silkscreen lines between pinout		done a	
+print polarity on top layer			done a
+narrow pins on buck footprint			done a 
+sot23 footprint too small			done a 
+more space between some components		done a

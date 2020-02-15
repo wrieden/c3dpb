@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:c3dpb-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 19
 Title "Kajikia - Main Sheet"
-Date "2019-01-23"
-Rev "1.0"
+Date "2020-02-15"
+Rev "1.1"
 Comp "Sven Wrieden"
 Comment1 ""
 Comment2 ""
@@ -988,7 +987,7 @@ L Device:Ferrite_Bead_Small FB2
 U 1 1 5D4334B5
 P 3650 1400
 F 0 "FB2" V 3413 1400 50  0000 C CNN
-F 1 "220r/100mhz" V 3504 1400 50  0000 C CNN
+F 1 "470r/100mhz" V 3504 1400 50  0000 C CNN
 F 2 "_Generic:0603_IND" V 3580 1400 50  0001 C CNN
 F 3 "~" H 3650 1400 50  0001 C CNN
 	1    3650 1400
@@ -1306,4 +1305,17 @@ Text Label 7000 2850 0    50   ~ 0
 SPI_CS
 Text Label 7000 2950 0    50   ~ 0
 SPI_MISO
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E6CAF71
+P 4150 1350
+F 0 "#FLG0102" H 4150 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4150 1523 50  0000 C CNN
+F 2 "" H 4150 1350 50  0001 C CNN
+F 3 "~" H 4150 1350 50  0001 C CNN
+	1    4150 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1350 4150 1400
 $EndSCHEMATC
