@@ -1,4 +1,10 @@
+v1.2
 use address mode for tmc2209
+increase 100k feedback resistor gap
+increase plane distance
+
+
+v1.1 
 add diode to power outputs 			done a
 remove silkscreen lines between pinout		done a	
 print polarity on top layer			done a
