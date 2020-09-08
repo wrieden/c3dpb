@@ -4,3 +4,12 @@
 [submodule "software/klipper/klipper"]
 	path = software/klipper/klipper
 	url = git@github.com:KevinOConnor/klipper.git
+[submodule "hotend_board/kicad-personal"]
+	path = hotend_board/kicad-personal
+	url = git@github.com:wRieDen/kicad-personal.git
+[submodule "hotend_board/kicad-symbols"]
+	path = hotend_board/kicad-symbols
+	url = git@github.com:KiCad/kicad-symbols.git
+[submodule "hotend_board/kicad-footprints"]
+	path = hotend_board/kicad-footprints
+	url = git@github.com:KiCad/kicad-footprints.git
